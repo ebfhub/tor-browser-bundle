@@ -377,7 +377,7 @@ script: |
   ln -sf "$PWD" "$GOPATH/src/git.torproject.org/pluggable-transports/obfs4.git"
   cd obfs4proxy
   go build -ldflags '-s'
-  cp -a obfs4proxy $PTDIR
+  cp -a obfs4proxy.exe $PTDIR
   cd ../..
 
   # http://bugs.winehq.org/show_bug.cgi?id=3591
