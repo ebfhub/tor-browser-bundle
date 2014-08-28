@@ -29,7 +29,7 @@ pref("extensions.torlauncher.default_bridge.scramblesuit.1", "scramblesuit 188.4
 pref("extensions.torlauncher.default_bridge.scramblesuit.2", "scramblesuit 188.226.213.208:54278 AA5A86C1490296EF4FACA946CC5A182FCD1C5B1E password=MD2VRP7WXAMSG7MKIGMHI4CB4BMSNO7T");
 pref("extensions.torlauncher.default_bridge.scramblesuit.3", "scramblesuit 83.212.101.3:443 A09D536DD1752D542E1FBB3C9CE4449D51298239 password=XTCXLG2JAMJKZW2POLBAOWOQETQSMASH");
 
-pref("extensions.torlauncher.default_bridge.obfs4.1", "obfs4 178.209.52.110:443 67E72FF33D7D41BF11C569646A0A7B4B188340DF node-id=67e72ff33d7d41bf11c569646a0a7b4b188340df public-key=be6fb0f64e7b68c217fe8f80f5e7f90bba3dc4a12486bee44418f73787ad0e7f");
+pref("extensions.torlauncher.default_bridge.obfs4.1", "obfs4 178.209.52.110:443 67E72FF33D7D41BF11C569646A0A7B4B188340DF node-id=67e72ff33d7d41bf11c569646a0a7b4b188340df public-key=be6fb0f64e7b68c217fe8f80f5e7f90bba3dc4a12486bee44418f73787ad0e7f iat-mode=0");
 
 pref("extensions.torlauncher.default_bridge.meek-google.1", "meek 0.0.2.0:1 url=https://meek-reflect.appspot.com/ front=www.google.com");
 pref("extensions.torlauncher.default_bridge.meek-amazon.1", "meek 0.0.2.0:2 url=https://d2zfqthxsdq309.cloudfront.net/ front=a0.awsstatic.com");
