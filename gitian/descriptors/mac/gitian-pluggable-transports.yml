@@ -54,7 +54,6 @@ files:
 - "openssl-mac32-utils.zip"
 - "go.crypto.tar.bz2"
 - "go.net.tar.bz2"
-- "bug12535.patch"
 script: |
   INSTDIR="$HOME/install"
   TBDIR="$INSTDIR/TorBrowserBundle.app/TorBrowser"
@@ -233,11 +232,6 @@ script: |
 
   # Building goptlib
   cd goptlib
-  git update-index --refresh -q
-  export GIT_COMMITTER_NAME="nobody"
-  export GIT_COMMITTER_EMAIL="nobody@localhost"
-  export GIT_COMMITTER_DATE="$REFERENCE_DATETIME"
-  git am ~/build/bug12535.patch
   find -type f | xargs touch --date="$REFERENCE_DATETIME"
   mkdir -p "$GOPATH/src/git.torproject.org/pluggable-transports"
   ln -sf "$PWD" "$GOPATH/src/git.torproject.org/pluggable-transports/goptlib.git"
