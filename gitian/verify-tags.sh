@@ -100,6 +100,7 @@ obfsproxy             obfsproxy.gpg             $OBFSPROXY_TAG
 flashproxy            flashproxy.gpg            $FLASHPROXY_TAG
 goptlib               goptlib.gpg               $GOPTLIB_TAG
 meek                  meek.gpg                  $MEEK_TAG
+obfs4                 obfs4proxy.gpg            $OBFS4_TAG
 EOF
 #https-everywhere      https-everywhere.gpg      $HTTPSE_TAG
 
