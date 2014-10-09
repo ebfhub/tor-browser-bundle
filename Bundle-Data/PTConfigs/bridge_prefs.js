@@ -30,6 +30,7 @@ pref("extensions.torlauncher.default_bridge.scramblesuit.2", "scramblesuit 188.2
 pref("extensions.torlauncher.default_bridge.scramblesuit.3", "scramblesuit 83.212.101.3:443 A09D536DD1752D542E1FBB3C9CE4449D51298239 password=XTCXLG2JAMJKZW2POLBAOWOQETQSMASH");
 
 pref("extensions.torlauncher.default_bridge.obfs4.1", "obfs4 178.209.52.110:443 67E72FF33D7D41BF11C569646A0A7B4B188340DF cert=Z+cv8z19Qb8RxWlkagp7SxiDQN++b7D2Tntowhf+j4D15/kLuj3EoSSGvuREGPc3h60Ofw iat-mode=0");
+pref("extensions.torlauncher.default_bridge.obfs4.2", "obfs4 83.212.101.3:41213 A09D536DD1752D542E1FBB3C9CE4449D51298239 cert=lPRQ/MXdD1t5SRZ9MquYQNT9m5DV757jtdXdlePmRCudUU9CFUOX1Tm7/meFSyPOsud7Cw iat-mode=0");
 
 pref("extensions.torlauncher.default_bridge.meek-google.1", "meek 0.0.2.0:1 url=https://meek-reflect.appspot.com/ front=www.google.com");
 pref("extensions.torlauncher.default_bridge.meek-amazon.1", "meek 0.0.2.0:2 url=https://d2zfqthxsdq309.cloudfront.net/ front=a0.awsstatic.com");
