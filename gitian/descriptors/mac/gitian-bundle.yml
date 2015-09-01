@@ -83,8 +83,6 @@ script: |
   mkdir -p dmg
   #
   cd tor-launcher
-  # Work around OSX Japanese locale stupidity.
-  ln -s src/chrome/locale/ja src/chrome/locale/ja-JP-mac
   make clean
   make package
   # FIXME: Switch to re-dzip.sh here?
@@ -95,8 +93,6 @@ script: |
   cd ../../../
   #
   cd torbutton
-  # Work around OSX Japanese locale stupidity.
-  ln -s src/chrome/locale/ja src/chrome/locale/ja-JP-mac
   mkdir -p pkg
   ./makexpi.sh
   # FIXME: Switch to re-dzip.sh here?
